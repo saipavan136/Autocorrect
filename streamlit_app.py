@@ -102,7 +102,7 @@ def predict_word(word):
     return dictionary_snap(base)
 
 # ── UI (unchanged) ────────────────────────────────────────────────────────────
-st.title("🔤 Autocorrect LSTM App")
+st.title("Autocorrect LSTM App")
 
 user_input = st.text_input("Enter a misspelled word:")
 
